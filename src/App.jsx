@@ -279,7 +279,7 @@ export default function TypoHacker() {
         <div className="bg-gray-900 border-2 border-green-500 p-6 rounded-lg">
           <input
             type="text"
-            placeholder="Enter hacker alias..."
+            placeholder="Enter alias..."
             value={playerName}
             onChange={(e) => setPlayerName(e.target.value)}
             maxLength={20}
@@ -292,7 +292,7 @@ export default function TypoHacker() {
           disabled={!playerName.trim()}
           className="w-full py-4 px-8 bg-green-500 text-black font-mono text-2xl font-bold border-2 border-green-400 rounded hover:bg-green-400 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          &gt; INITIATE HACK_
+          &gt; INITIATE_
         </button>
 
         {leaderboard.length > 0 && (
